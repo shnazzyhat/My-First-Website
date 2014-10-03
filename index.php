@@ -31,7 +31,7 @@
             color: purple;
         }
         #steve {
-            color: pink;
+            color: #27FF00;
             background-color: gray;
             padding: 10px;
             margin-bottom:40px;
@@ -40,7 +40,7 @@
             float: left;
         }
         #eric {
-            color: green;
+            color: #0800FF;
             float: right;
             width: 30%;
             font-size: 18px;
@@ -63,7 +63,7 @@
             background-color: #e5e5e5;
         }
         .my-special-list {
-            color: teal;
+            color: green;
             font-size: 18px;
         }
 
@@ -81,6 +81,22 @@
         }
         .my-special-list li img {
             max-height:100%;
+        }
+        .my-special-list li a,
+        .my-special-list li a:link,
+        .my-special-list li a:visited {
+            color:#292C2F;
+            text-decoration: none;
+        }
+        .my-special-list li a:hover {
+            color: pink;
+        }
+        #eric:hover:after{
+            content: "Fails at pally miserably";
+            font-size:22px;
+            color:black;
+            font-weight:bold;
+            display:inline;
         }
         </style>
     </head>
