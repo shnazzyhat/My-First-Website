@@ -14,20 +14,78 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <style type="text/css">
+        p {
+            font-size: 14px;
+            color: red;
+        }
+        div {
+            font-size: 18px;
+            color: orange;
+        }
+        .favorite {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        #liam {
+            color: purple;
+        }
+        #steve {
+            color: pink;
+            background-color: gray;
+            padding: 10px;
+            margin-bottom:40px;
+            margin-top:40px;
+            width: 50%;
+            float: left;
+        }
+        #eric {
+            color: green;
+            float: right;
+            width: 30%;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .clearfix {
+            clear: both;
+            min-height:1px;
+            display:block;
+            margin:0;
+            height:0;
+        }
+        .container {
+            margin-top:20px;
+            margin-left:auto;
+            margin-right:auto;
+            width: 1080px;
+            background-color: #e5e5e5;
+        }
+        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <?php
+        <div class="container">
+            <div class="favorite">This is also my favorite</div>
+            <p class="favorite">This is also a paragraph</p>
 
-        print("I RUN THIS TOWN NEVER FORGET IT");
-        printf("the answer to the equation %d + %d = %d", 1, 2, 1+2);
-        print("Steve has tiny nads");
-
-        ?>
-        <p>Hello world! g is SKYPE NEEDS TO DIE Boilerplate.</p>
-
+            <div id="liam">      
+            </div>
+            <p id="steve" class="favorite">Helloww world! g is SKYPE NEEDS TO DIE Boilerplate.</p>
+            <p id="liam" class="favorite"> this shit is pretty tight. </p>
+            <p id="eric">  pallys dont use haste</p>
+            <p id="steve" class="favorite"> insert text about stuff here </p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="container">
+            <p id="steve"> i guess pallys should use haste </p>
+            <p id="eric"> no they should not </p>
+            <p id="liam"> guys pls stahp fytng </p>
+            <div class="clearfix"></div>
+        </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
