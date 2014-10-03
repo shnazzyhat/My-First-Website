@@ -218,3 +218,83 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+/** Liam stylesheets **/
+
+p {
+    font-size: 20px;
+    color: red;
+}
+div {
+    font-size: 22px;
+    color: orange;
+}
+.favorite {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#liam {
+    color: purple;
+}
+#steve {
+    color: #27FF00;
+    background-color: gray;
+    padding: 10px;
+    margin-bottom:40px;
+    margin-top:40px;
+    width: 50%;
+    float: left;
+}
+#eric {
+    color: #0800FF;
+    float: right;
+    width: 30%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.clearfix {
+    clear: both;
+    min-height:1px;
+    display:block;
+    margin:0;
+    height:0;
+}
+.container {
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 1080px;
+    background-color: #e5e5e5;
+}
+.my-special-list {
+    color: green;
+    font-size: 18px;
+}
+
+.my-special-list li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    line-height:30px;
+    padding: 7px 10px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+.my-special-list li img {
+    max-height:100%;
+}
+.my-special-list li a,
+.my-special-list li a:link,
+.my-special-list li a:visited {
+    color:#292C2F;
+    text-decoration: none;
+}
+.my-special-list li a:hover {
+    color: pink;
+}
