@@ -16,11 +16,11 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <style type="text/css">
         p {
-            font-size: 14px;
+            font-size: 20px;
             color: red;
         }
         div {
-            font-size: 18px;
+            font-size: 22px;
             color: orange;
         }
         .favorite {
@@ -62,6 +62,26 @@
             width: 1080px;
             background-color: #e5e5e5;
         }
+        .my-special-list {
+            color: teal;
+            font-size: 18px;
+        }
+
+        .my-special-list li {
+            display: inline-block;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            height: 30px;
+            line-height:30px;
+            padding: 7px 10px;
+            border-radius: 4px;
+            background-color: red;
+            color: white;
+        }
+        .my-special-list li img {
+            max-height:100%;
+        }
         </style>
     </head>
     <body>
@@ -74,7 +94,7 @@
 
             <div id="liam">      
             </div>
-            <p id="steve" class="favorite">Helloww world! g is SKYPE NEEDS TO DIE Boilerplate.</p>
+            <p id="steve" class="favorite">Hello world! SKYPE NEEDS TO DIE Boilerplate.</p>
             <p id="liam" class="favorite"> this shit is pretty tight. </p>
             <p id="eric">  pallys dont use haste</p>
             <p id="steve" class="favorite"> insert text about stuff here </p>
@@ -85,6 +105,11 @@
             <p id="eric"> no they should not </p>
             <p id="liam"> guys pls stahp fytng </p>
             <div class="clearfix"></div>
+            <ul class="my-special-list">
+                <li><a href="http://google.com" target="_blank">This is</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">A list</a></li>
+                <li><a href="http://91ferns.com" target="_blank"><img src="http://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg"></a></li>
+            </ul>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
