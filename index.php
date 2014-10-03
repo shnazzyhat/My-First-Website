@@ -31,7 +31,7 @@
             <p id="liam" class="favorite"> this shit is pretty tight. </p>
             <p id="eric">  pallys dont use haste</p>
             <p id="steve" class="favorite"> insert text about stuff here </p>
-            <a href="//google.com" target="_blank">click me you demolator </a></p>
+            <a href="//google.com" target="_blank"><p id="eric"> click me you demolator </p></a>
             <div class="clearfix"></div>
         </div>
         <div class="container">
