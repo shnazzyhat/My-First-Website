@@ -23,6 +23,7 @@
 
         print("I RUN THIS TOWN NEVER FORGET IT");
         printf("the answer to the equation %d + %d = %d", 1, 2, 1+2);
+        print("Steve has tiny nads");
 
         ?>
         <p>Hello world! g is SKYPE NEEDS TO DIE Boilerplate.</p>
