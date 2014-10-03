@@ -91,23 +91,29 @@
         .my-special-list li a:hover {
             color: pink;
         }
+        #eric:hover {
+            text-indent: -5000px;
+
+        }
         #eric:hover:after{
-            content: "Fails at pally miserably";
+            text-indent: 5000px;
             font-size:22px;
             color:black;
             font-weight:bold;
             display:inline;
         }
+
         </style>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <?php ob_start(); ?>
         <div class="container">
             <div class="favorite">This is also my favorite</div>
             <p class="favorite">This is also a paragraph</p>
-
+            <p></p>
             <div id="liam">      
             </div>
             <p id="steve" class="favorite">Hello world! SKYPE NEEDS TO DIE Boilerplate.</p>
@@ -127,6 +133,8 @@
                 <li><a href="http://91ferns.com" target="_blank"><img src="http://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg"></a></li>
             </ul>
         </div>
+        <?php $contents = ob_get_clean();
+        echo str_ireplace("haste", "parry", $contents); ?>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
