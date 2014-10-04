@@ -22,7 +22,7 @@
         <![endif]-->
         <?php ob_start(); ?>
         <div class="container">
-            <div class="favorite">This is also my favorite</div>
+            <div class="favorite">Website.com</div>
             <p class="favorite">This is also a paragraph</p>
             <p></p>
             <div id="liam">      
@@ -44,6 +44,15 @@
                 <li><a href="https://www.facebook.com" target="_blank">A list</a></li>
                 <li><a href="http://91ferns.com" target="_blank"><img src="http://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg"></a></li>
             </ul>
+        <div class="container">
+            <p id="liam"> fun links </p>
+            <ul class="my-special-list">
+                <li><a href="//watchanimeon.com" target="_blank">Click here for anime bruh</a></li>
+                <li><a href="http://youtu.be/TcTNloetz_8?list=FLr1PDaT2DTjCuavp-whbPgA" target="_blank"><img src="http://cdn.stereogum.com/files/2012/02/Gorillaz1.jpg"></a></li>
+        <div class="container">
+            <p id="liam"> Prot Pally Guide </p>
+            <ul class="my-special-list">
+                <li><a href="http://www.icy-veins.com/wow/protection-paladin-pve-tank-guide" target="_blank"><img src="http://maxdps.com/images/section/4_2.jpg"></a></li>
         </div>
         <?php $contents = ob_get_clean();
         echo str_ireplace("haste", "parry", $contents); ?>
