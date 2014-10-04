@@ -233,6 +233,8 @@ div {
 .favorite {
     font-weight: bold;
     text-decoration: underline;
+    color: magenta;
+    font-size: 40px;
 }
 #liam {
     color: purple;
@@ -283,7 +285,7 @@ div {
     line-height:30px;
     padding: 7px 10px;
     border-radius: 4px;
-    background-color: red;
+    background-color: magenta;
     color: white;
 }
 .my-special-list li img {

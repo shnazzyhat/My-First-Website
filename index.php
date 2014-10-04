@@ -23,37 +23,29 @@
         <?php ob_start(); ?>
         <div class="container">
             <div class="favorite">Website.com</div>
-            <p class="favorite">This is also a paragraph</p>
             <p></p>
             <div id="liam">      
             </div>
-            <p id="steve" class="favorite">Hello world! SKYPE NEEDS TO DIE Boilerplate.</p>
-            <p id="liam" class="favorite"> this shit is pretty tight. </p>
-            <p id="eric">  pallys dont use haste</p>
-            <p id="steve" class="favorite"> insert text about stuff here </p>
-            <a href="//google.com" target="_blank"><p id="eric"> click me you demolator </p></a>
-            <div class="clearfix"></div>
-        </div>
-        <div class="container">
-            <p id="steve"> i guess pallys should use haste </p>
-            <p id="eric"> no they should not </p>
-            <p id="liam"> guys pls stahp fytng </p>
             <div class="clearfix"></div>
             <ul class="my-special-list">
-                <li><a href="http://google.com" target="_blank">This is</a></li>
-                <li><a href="https://www.facebook.com" target="_blank">A list</a></li>
+                <li><a href="http://google.com" target="_blank">The Google Machine</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">The Facebook Machine</a></li>
                 <li><a href="http://91ferns.com" target="_blank"><img src="http://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg"></a></li>
-            </ul>
-        <div class="container">
-            <p id="liam"> fun links </p>
-            <ul class="my-special-list">
                 <li><a href="//watchanimeon.com" target="_blank">Click here for anime bruh</a></li>
                 <li><a href="http://youtu.be/TcTNloetz_8?list=FLr1PDaT2DTjCuavp-whbPgA" target="_blank"><img src="http://cdn.stereogum.com/files/2012/02/Gorillaz1.jpg"></a></li>
-        <div class="container">
-            <p id="liam"> Prot Pally Guide </p>
-            <ul class="my-special-list">
                 <li><a href="http://www.icy-veins.com/wow/protection-paladin-pve-tank-guide" target="_blank"><img src="http://maxdps.com/images/section/4_2.jpg"></a></li>
+                </ul>
+            <p id="liam">Hello world! SKYPE NEEDS TO DIE Boilerplate.</p>
+            <p id="liam"> this shit is pretty tight. </p>
+            <p id="liam"> pallys dont use haste</p>
+            <p id="liam"> insert text about stuff here </p>
+            <a href="//google.com" target="_blank"><p id="liam"> click me you demolator </p></a>
+            <div class="clearfix"></div>
         </div>
+        <div class="container">
+            <p id="liam"> i guess pallys should use haste </p>
+            <p id="liam"> no they should not </p>
+            <p id="liam"> guys pls stahp fytng </p>
         <?php $contents = ob_get_clean();
         echo str_ireplace("haste", "parry", $contents); ?>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
