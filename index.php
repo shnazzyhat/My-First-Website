@@ -28,11 +28,11 @@
             </div>
             <div class="clearfix"></div>
             <ul class="my-special-list">
-                <li><a href="http://google.com" target="_blank">The Google Machine</a></li>
-                <li><a href="https://www.facebook.com" target="_blank">The Facebook Machine</a></li>
-                <li><a href="http://91ferns.com" target="_blank"><img src="http://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg"></a></li>
-                <li><a href="//watchanimeon.com" target="_blank">Click here for anime bruh</a></li>
-                <li><a href="http://youtu.be/TcTNloetz_8?list=FLr1PDaT2DTjCuavp-whbPgA" target="_blank"><img src="http://cdn.stereogum.com/files/2012/02/Gorillaz1.jpg"></a></li>
+                <li><a href="http://google.com" target="_blank"><img src="http://lh3.ggpht.com/5IkkJ28jCJa-dMyDX3luN5onFJTRcnHMDgCq3JVjdZ0EliJLrvFRGLw04_z7phmvYJD9QWKE617CTbUoch52qg242SRSGk4taUpHfcW5Og=s660"></a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="http://www.rainyfrog.com/wp-content/uploads/2014/04/Facebook-Icon-1021x1024.png"></a></li>
+                <li><a href="//tumblr.com" target="_blank"><img src="https://secure.assets.tumblr.com/images/logo_page/img_logo_bluebg_2x.png"></a></li>
+                <li><a href="//watchanimeon.com" target="_blank"><img src="http://images.saiyanisland.com/data/526/Naruto-Logo.gif"></a></li>
+                <li><a href="https://www.youtube.com/feed/subscriptions" target="_blank"><img src="http://cdn.stereogum.com/files/2012/02/Gorillaz1.jpg"></a></li>
                 <li><a href="http://www.icy-veins.com/wow/protection-paladin-pve-tank-guide" target="_blank"><img src="http://maxdps.com/images/section/4_2.jpg"></a></li>
                 </ul>
             <p id="liam">Hello world! SKYPE NEEDS TO DIE Boilerplate.</p>
