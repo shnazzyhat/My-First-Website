@@ -22,7 +22,7 @@
         <![endif]-->
         <?php ob_start(); ?>
         <div class="container">
-            <div class="favorite">Website.com</div>
+            <div class="favorite">Donpain's home page</div>
             <p></p>
             <div id="liam">      
             </div>
@@ -39,13 +39,23 @@
             <p id="liam"> this shit is pretty tight. </p>
             <p id="liam"> pallys dont use haste</p>
             <p id="liam"> insert text about stuff here </p>
-            <a href="//google.com" target="_blank"><p id="liam"> click me you demolator </p></a>
+            <p id="liam"> Insert stuff about text here </p>
+            <a href="//google.com" target="_blank"><p id="liam"> another link to Google </p></a>
             <div class="clearfix"></div>
         </div>
         <div class="container">
             <p id="liam"> i guess pallys should use haste </p>
             <p id="liam"> no they should not </p>
             <p id="liam"> guys pls stahp fytng </p>
+            <p id="liam"> *bloodbth ensues* </p>
+        </div>    
+        <div class="container">
+            <p id="favorite"> The Sagas of Apple Juice Ninja lolwut </p>
+            <p id="favorite"> Coming soon: erotic stories.  Just kidding.  More like failed attempts at speaking to women.  And stuff.  And things.
+            <p id="liam"> Friend: "We should make a synth pop band.  Make $10million.  Retire and pretend like we didn't do that."
+            <p id="liam"> "Capitalism?  More like CRAPITALISM, amiright?" -Karl Marx, probably
+            <a href="http://cache.bordom.net/server/?type=image&size=full&id=aHR0cDovL2Noem1lbWViYXNlLmZpbGVzLndvcmRwcmVzcy5jb20vMjAxMi8wMy9pbnRlcm5ldC1tZW1lcy1zaGF1bi1vZi10aGUtdWdhbmRlYWQ0LmpwZw%3D%3D" target="_blank"><p id="liam"> Master Plan for saving Africa </p></a>
+        
         <?php $contents = ob_get_clean();
         echo str_ireplace("haste", "parry", $contents); ?>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
