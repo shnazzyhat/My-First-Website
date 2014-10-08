@@ -233,7 +233,7 @@ div {
 .favorite {
     font-weight: bold;
     text-decoration: underline;
-    color: magenta;
+    color: red;
     font-size: 40px;
 }
 #liam {
@@ -285,7 +285,7 @@ div {
     line-height:30px;
     padding: 7px 10px;
     border-radius: 4px;
-    background-color: magenta;
+    background-color: red;
     color: white;
 }
 .my-special-list li img {
@@ -299,4 +299,12 @@ div {
 }
 .my-special-list li a:hover {
     color: pink;
+}
+.favorite-2 {
+    font-weight: bold;
+    color: red;
+    font-size: 25px;
+}
+.body {
+    background-color: blue; 
 }
