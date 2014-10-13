@@ -22,7 +22,7 @@
         <![endif]-->
         <?php ob_start(); ?>
         <div class="container">
-            <div class="favorite">Donpain's home page</div>
+            <div class="favorite">Donpain's Frequently Visited</div>
             <p></p>
             <div id="liam">      
             </div>
@@ -38,12 +38,15 @@
             <div class="clearfix"></div>
         </div>  
         <div class="container">
-            <p id="favorite-2"> The Sagas of Apple Juice Ninja lolwut </p>
+            <p id="josh"> This Should be a WoW Website </p>
             <p id="favorite-2"> Coming soon: erotic stories.  Just kidding.  More like failed attempts at speaking to women.  And stuff.  And things.
-            <p id="liam"> Friend: "We should make a synth pop band.  Make $10million.  Retire and pretend like we didn't do that."
-            <p id="liam"> "Capitalism?  More like CRAPITALISM, amiright?" -Karl Marx, probably
-            <a href="http://cache.bordom.net/server/?type=image&size=full&id=aHR0cDovL2Noem1lbWViYXNlLmZpbGVzLndvcmRwcmVzcy5jb20vMjAxMi8wMy9pbnRlcm5ldC1tZW1lcy1zaGF1bi1vZi10aGUtdWdhbmRlYWQ0LmpwZw%3D%3D" target="_blank"><p id="liam"> Master Plan for saving Africa </p></a>
-            <a href=""
+            <p id="josh"> Friend: "We should make a synth pop band.  Make $10million.  Retire and pretend like we didn't do that."
+            <p id="josh"> "Capitalism?  More like CRAPITALISM, amiright?" -Karl Marx, probably
+            <a href="http://cache.bordom.net/server/?type=image&size=full&id=aHR0cDovL2Noem1lbWViYXNlLmZpbGVzLndvcmRwcmVzcy5jb20vMjAxMi8wMy9pbnRlcm5ldC1tZW1lcy1zaGF1bi1vZi10aGUtdWdhbmRlYWQ0LmpwZw%3D%3D" target="_blank"><p id="josh"> Master Plan for saving Africa </p></a>
+        </div>
+        <div class="container2">
+            <p id="josh2"> Siege Of Orgrimmar </p>
+            
         <?php $contents = ob_get_clean();
         echo str_ireplace("haste", "parry", $contents); ?>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

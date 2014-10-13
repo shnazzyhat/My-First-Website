@@ -269,7 +269,7 @@ div {
     margin-left:auto;
     margin-right:auto;
     width: 1080px;
-    background-color: #e5e5e5;
+    background-image:url(http://www.hdwallpapersos.com/wp-content/uploads/2014/07/white-rocks-1920-1200-62942.jpg);
 }
 .my-special-list {
     color: green;
@@ -307,4 +307,15 @@ div {
 }
 .body {
     background-image:url(http://www.voletic.com/wp-content/uploads/2014/03/WoW-Boss-Compilation-Wallpaper.jpg); 
+}
+.josh {
+    color: red;
+    font-size: 30px;
+}
+.container2 {
+    margin-top:0px;
+    margin-left:5px;
+    margin-right:auto;
+    width: 200px;
+    background-color: white;
 }
