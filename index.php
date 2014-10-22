@@ -21,10 +21,6 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <?php ob_start(); ?>
-        <div class="clearfix">
-        <ul class="list2">
-            <li></a></li>
-        </div>
         <div class="container">
             <div class="favorite">Donpain's Frequently Visited</div>
             <p></p>
