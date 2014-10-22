@@ -269,7 +269,7 @@ div {
     margin-left:auto;
     margin-right:auto;
     width: 1080px;
-    background-image:url(http://www.hdwallpapersos.com/wp-content/uploads/2014/07/white-rocks-1920-1200-62942.jpg);
+    background-color: #B7D9F4;
 }
 .my-special-list {
     color: green;
@@ -318,4 +318,13 @@ div {
     margin-right:auto;
     width: 200px;
    background-image:url(http://www.hdwallpapersos.com/wp-content/uploads/2014/07/white-rocks-1920-1200-62942.jpg);
+}
+.list2 {
+    display: inline-vertical;
+    list-style-type: vertical;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: red;
+    width: 250px;
 }
