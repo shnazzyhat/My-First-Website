@@ -44,6 +44,9 @@
             <p id="josh"> "Capitalism?  More like CRAPITALISM, amiright?" -Karl Marx, probably
             <a href="http://cache.bordom.net/server/?type=image&size=full&id=aHR0cDovL2Noem1lbWViYXNlLmZpbGVzLndvcmRwcmVzcy5jb20vMjAxMi8wMy9pbnRlcm5ldC1tZW1lcy1zaGF1bi1vZi10aGUtdWdhbmRlYWQ0LmpwZw%3D%3D" target="_blank"><p id="josh"> Master Plan for saving Africa </p></a>
         </div>
+        <div class="container">
+        <iframe src="http://www.twitch.tv/abdoutoobeasty/embed" frameborder="0" scrolling="no" height="378" width="620"></iframe><a href="http://www.twitch.tv/abdoutoobeasty?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;">Watch live video from AbdouTooBEasty on www.twitch.tv</a>
+    </div>
         <?php $contents = ob_get_clean();
         echo str_ireplace("haste", "parry", $contents); ?>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
