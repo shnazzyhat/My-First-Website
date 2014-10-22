@@ -48,7 +48,7 @@ class IndexController extends AbstractActionController
 
     	// i know this is a bit complicated im just trying to illustrate a point
 		*/
-		
+
     	$chelsea = new Portfolio();
     	$chelsea->setOwner('chelsea');
     	$chelsea->setPieces(100);
@@ -58,6 +58,7 @@ class IndexController extends AbstractActionController
     	$liam->setOwner('liam');
     	$liam->setPieces(100);
     	$liam->setMedium('Writing');
+    	$liam->setFavoriteArtist ('Idklol');
 
     	$eric = new Portfolio();
     	$eric->setOwner('eric');
