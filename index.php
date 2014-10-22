@@ -23,6 +23,7 @@
         <?php ob_start(); ?>
         <div class="container">
             <div class="favorite">Host Your Portfolio Here!</div>
+            <div class="josh"> Popular Portfolios! (Not really, just random links for now)</div>
             <p></p>
             <div id="liam">      
             </div>
