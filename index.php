@@ -22,7 +22,7 @@
         <![endif]-->
         <?php ob_start(); ?>
         <div class="container">
-            <div class="favorite">Donpain's Frequently Visited</div>
+            <div class="favorite">Host Your Portfolio Here!</div>
             <p></p>
             <div id="liam">      
             </div>
@@ -38,16 +38,13 @@
             <div class="clearfix"></div>
         </div>  
         <div class="container">
-            <p id="josh"> This Should be a WoW Website </p>
-            <p id="favorite-2"> Coming soon: erotic stories.  Just kidding.  More like failed attempts at speaking to women.  And stuff.  And things.
-            <p id="josh"> Friend: "We should make a synth pop band.  Make $10million.  Retire and pretend like we didn't do that."
-            <p id="josh"> "Capitalism?  More like CRAPITALISM, amiright?" -Karl Marx, probably
-            <a href="http://cache.bordom.net/server/?type=image&size=full&id=aHR0cDovL2Noem1lbWViYXNlLmZpbGVzLndvcmRwcmVzcy5jb20vMjAxMi8wMy9pbnRlcm5ldC1tZW1lcy1zaGF1bi1vZi10aGUtdWdhbmRlYWQ0LmpwZw%3D%3D" target="_blank"><p id="josh"> Master Plan for saving Africa </p></a>
+            <p id="josh"> An organized and easy to access protfolio is key for any deisgner or artist. </p>
+            <p id="josh"> Using this service, you can upload your portfolio and give anyone specific access to it. </p>
+            <p id="josh"> Your portfolio can also be protected from random views.  If they dont have permission from you, they can't see it. </p>
+            <p id="josh"> This website also serves as a job request host.  Look up the kind of work you want done and a list of artists will appear for you. </p>
+            <p id="josh"> You can then request their portfolios or send in job descriptions and find the person who is right for you. </p>    
+            <p id="josh"> Click here to get started!
         </div>
-        <div class=
-        "container">
-        <iframe src="http://www.twitch.tv/modelun/embed" frameborder="0" scrolling="no" height="378" width="620"></iframe><a href="http://www.twitch.tv/abdoutoobeasty?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;">Watch live video from AbdouTooBEasty on www.twitch.tv</a>
-    </div>
         <?php $contents = ob_get_clean();
         echo str_ireplace("haste", "parry", $contents); ?>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
