@@ -13,8 +13,8 @@
         <!-- Le styles -->
         <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'))
                         ->prependStylesheet($this->basePath() . '/css/style.css')
-                        ->prependStylesheet($this->basePath() . '/css/bootstrap-theme.min.css')
-                        ->prependStylesheet($this->basePath() . '/css/bootstrap.min.css') ?>
+                        //->prependStylesheet($this->basePath() . '/css/bootstrap-theme.min.css')
+                        //->prependStylesheet($this->basePath() . '/css/bootstrap.min.css') ?>
 
         <!-- Scripts -->
         <?php echo $this->headScript()
@@ -25,24 +25,27 @@
         ; ?>
 
     </head>
-    <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="<?php echo $this->url('home') ?>"><img src="<?php echo $this->basePath('img/zf2-logo.png') ?>" alt="Zend Framework 2"/>&nbsp;<?php echo $this->translate('Skeleton Application') ?></a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Home') ?></a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
+    <body class="body">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <div class="favorite">Host Your Portfolio Here!</div>
+            <div class="josh"> Popular Portfolios! (Not really, just random links for now)</div>
+            <p></p>
+            <div id="liam">      
             </div>
-        </nav>
+            <div class="clearfix"></div>
+            <ul class="my-special-list">
+                <li><a href="http://google.com" target="_blank"><img src="http://lh3.ggpht.com/5IkkJ28jCJa-dMyDX3luN5onFJTRcnHMDgCq3JVjdZ0EliJLrvFRGLw04_z7phmvYJD9QWKE617CTbUoch52qg242SRSGk4taUpHfcW5Og=s660"></a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="http://www.rainyfrog.com/wp-content/uploads/2014/04/Facebook-Icon-1021x1024.png"></a></li>
+                <li><a href="//tumblr.com" target="_blank"><img src="https://secure.assets.tumblr.com/images/logo_page/img_logo_bluebg_2x.png"></a></li>
+                <li><a href="//watchanimeon.com" target="_blank"><img src="http://images.saiyanisland.com/data/526/Naruto-Logo.gif"></a></li>
+                <li><a href="https://www.youtube.com/feed/subscriptions" target="_blank"><img src="http://cdn.stereogum.com/files/2012/02/Gorillaz1.jpg"></a></li>
+                <li><a href="http://www.icy-veins.com/wow/protection-paladin-pve-tank-guide" target="_blank"><img src="http://maxdps.com/images/section/4_2.jpg"></a></li>
+                </ul>
+            <div class="clearfix"></div>
+        </div>
         <div class="container">
             <?php echo $this->content; ?>
             <hr>
