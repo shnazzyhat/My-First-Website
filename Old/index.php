@@ -21,32 +21,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <?php ob_start(); ?>
-        <div class="container">
-            <div class="favorite">Host Your Portfolio Here!</div>
-            <div class="josh"> Popular Portfolios! (Not really, just random links for now)</div>
-            <p></p>
-            <div id="liam">      
-            </div>
-            <div class="clearfix"></div>
-            <ul class="my-special-list">
-                <li><a href="http://google.com" target="_blank"><img src="http://lh3.ggpht.com/5IkkJ28jCJa-dMyDX3luN5onFJTRcnHMDgCq3JVjdZ0EliJLrvFRGLw04_z7phmvYJD9QWKE617CTbUoch52qg242SRSGk4taUpHfcW5Og=s660"></a></li>
-                <li><a href="https://www.facebook.com" target="_blank"><img src="http://www.rainyfrog.com/wp-content/uploads/2014/04/Facebook-Icon-1021x1024.png"></a></li>
-                <li><a href="//tumblr.com" target="_blank"><img src="https://secure.assets.tumblr.com/images/logo_page/img_logo_bluebg_2x.png"></a></li>
-                <li><a href="//watchanimeon.com" target="_blank"><img src="http://images.saiyanisland.com/data/526/Naruto-Logo.gif"></a></li>
-                <li><a href="https://www.youtube.com/feed/subscriptions" target="_blank"><img src="http://cdn.stereogum.com/files/2012/02/Gorillaz1.jpg"></a></li>
-                <li><a href="http://www.icy-veins.com/wow/protection-paladin-pve-tank-guide" target="_blank"><img src="http://maxdps.com/images/section/4_2.jpg"></a></li>
-                </ul>
-            <div class="clearfix"></div>
-        </div>  
-        <div class="container">
-            <p id="josh"> An organized and easy to access protfolio is key for any deisgner or artist. </p>
-            <p id="josh"> Using this service, you can upload your portfolio and give anyone specific access to it. </p>
-            <p id="josh"> Your portfolio can also be protected from random views.  If they dont have permission from you, they can't see it. </p>
-            <p id="josh"> This website also serves as a job request host.  Look up the kind of work you want done and a list of artists will appear for you. </p>
-            <p id="josh"> You can then request their portfolios or send in job descriptions and find the person who is right for your job. </p>    
-            <p id="josh"> Click here to sign up and get started!
-            <p id="josh"> Already a member? Click here.
-        </div>
+        
         <?php $contents = ob_get_clean();
         echo str_ireplace("haste", "parry", $contents); ?>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
